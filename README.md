@@ -1,4 +1,4 @@
-# Test HiveMQ in Docker envronment
+# Test HiveMQ in Docker environment
 
 ## Motivation
 
@@ -8,9 +8,9 @@ cluster. First let us try with Docker.
 
 ## Overview
 
-1. Start HiveMQ in a docker cotainer
+1. Start HiveMQ in a docker container
 2. Test if we can connect to HiveMQ from command line, using mosquitto-client.
-3. Test if we can connect to HiveMQ from HiveMQ client for Java programatically.
+3. Test if we can connect to HiveMQ from HiveMQ client for Java programmatically.
 
 I used help from ChatGPT to perform following experiment.
 
@@ -54,7 +54,7 @@ Install mosquitto on Mac.
 brew install mosquitto
 ```
 
-Create a topic and subscribe it. Do this in two teminals. 
+Create a topic and subscribe it. Do this in two terminals. 
 
 ```
 mosquitto_sub -h localhost -p 1883 -t "test/topic"
