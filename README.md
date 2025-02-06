@@ -77,7 +77,7 @@ We need to set up
 - JDK
 - Maven
 
-but this part is skipped.
+but this part is skipped. See [official instruction for JDK installation](https://docs.oracle.com/en/java/javase/22/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE)
 
 First set up a new project with Maven.
 
